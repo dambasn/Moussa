@@ -1,0 +1,75 @@
+html
+{
+    margin:100px;
+    margin-top: 0px;
+}
+header{
+    width: 100%;
+    height: 100PX;
+    display:flex;
+}
+.titre{
+    width: 50%;
+    height:100px;
+    
+}
+#rech{
+    margin-top: 22px;
+    width: 40%;
+    height: 100px;
+    display: flex;
+    
+}
+form{
+       
+}
+input[type=submit]{
+    background: orangered;
+    color: white;
+}
+#nav{
+    background-color: salmon;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+#nav-list{
+    display: flex;
+    background-color: royalblue;
+    text-align: center;
+    
+}
+.post1{
+    background-color: teal;
+    width: 100%;
+    display: flex;
+}
+#img-post1{
+    background-color: whitesmoke;
+    width: 500px;
+}
+#text-post1{
+    display: flex;
+    align-items: flex-end;
+}
+
+.post2{
+    background-image: url('imgaes/bg-post2.jpg');
+    background-attachment: fixed;
+    width: 100%;
+    display: flex;
+}
+.sous-post2{
+    display: flex;
+    background-size: contain;
+}
+.imag-sous-post2{
+
+}
+.text-sous-post2{
+
+}
+p{
+    margin: 15px 15px 15px 15px;
+}
